@@ -1,0 +1,454 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+}
+
+/* Header Style */
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+header .logo img {
+    width: 320px;  /* Adjust the logo size as needed */
+    height: auto;  /* Maintain aspect ratio */
+}
+
+header .logo.center {
+    position: static;
+}
+
+/* Navigation Menu */
+header nav {
+    text-align: center;
+    background-color: #000000;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    background-color: #ff0000;
+    color: rgb(36, 31, 31);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #ff0000;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff8080;
+    transform: scale(1.05);  /* Added zoom effect */
+}
+
+/* Console Info  */
+.console-info {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Slightly larger shadow */
+    border-radius: 8px;  /* Rounded corners */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.console-info:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);  /* Larger shadow on hover */
+}
+
+.console-info h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.console-info img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.console-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Featured Games  */
+.featured-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.featured-games h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.game {
+    width: 45%;
+    margin: 10px;
+    background-color: rgb(253, 236, 0);
+    border: 1px solid #ffffff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+}
+
+.game h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.game p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.game .cta-button {
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.game .cta-button:hover {
+    background-color: #cc0000;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* About Page */
+.about {
+    padding: 30px;
+    background-color: #a6a7a1;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.about img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Console Image  */
+.console-image {
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* YouTube Link  */
+a.youtube-link {
+    display: inline-block;
+    background-color: #dad866;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 2px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    position: absolute;
+    bottom: 0;  
+    width: 17%;
+    left: 10%;
+    
+}
+
+a.youtube-link:hover {
+    background-color: #cc0000;
+    transform: scale(1.05);  /* Slight zoom effect */
+}
+
+a.youtube-link:active {
+    background-color: #990000;
+}
+
+/* Video section goes to the bottom of page */
+.video-section {
+    margin-top: 30px;  
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    padding: 30px 0;
+}
+
+/* footer doesn't overlap the video */
+footer {
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Shop Page Style */
+.shop {
+    padding: 20px;
+    text-align: center;
+}
+
+.shop h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.shop p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+
+.product h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 1.2rem;
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.product .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product .btn:hover {
+    background-color: #ff0000;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Page */
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo img {
+        width: 80%;
+    }
+
+    .featured-games {
+        flex-direction: column;
+    }
+
+    .product-list {
+        flex-direction: column;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+.testimonial {
+    display: none;
+}
+
+.testimonial.visible {
+    display: block;
+}
